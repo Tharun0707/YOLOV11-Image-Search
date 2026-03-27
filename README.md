@@ -7,10 +7,15 @@ This project implements a YOLOv11-based real-time object detection and visual se
 ### The project includes:
 
 YOLOv11 inference on CPU/GPU
+
 Streamlit web deployment
+
 Conda-based environment setup
+
 Image search pipeline
+
 User-friendly UI
+
 
 ## 3. 📂 Dataset & YOLO Model Details (COCO)
 Dataset: COCO 2017
@@ -71,8 +76,11 @@ python src/inference.py
 ```
 ### Step 3 — VS Code Tips
 Select Interpreter → your conda env
+
 Open integrated terminal
+
 Run Streamlit or Python scripts
+
 
 ## 7. 🌐 How to Deploy using Streamlit
 ### Run Streamlit app:
@@ -83,17 +91,24 @@ streamlit run app.py
 ### Main Features:
 
 Upload image
+
 Detect objects using YOLOv11
+
 Show bounding boxes
+
 Perform visual similarity search
+
 Responsive UI
 
 ## 8. 🖼️ Output Screenshots
 Include these images inside your GitHub repo:
 
 UI Screenshot (Streamlit home page)
+
 Detection Output (Image + bounding boxes)
+
 VS Code Terminal showing YOLO inference logs
+
 Similarity search results
 
 <img width="1880" height="290" alt="p1" src="https://github.com/user-attachments/assets/cd3c5002-d6a6-4396-9fb9-4ebdfa5489f5" />
@@ -107,17 +122,26 @@ Similarity search results
 ### Examples (Edit according to your project):
 
 Added visual similarity search using embedding vectors
+
 Implemented GPU-accelerated YOLO inference
+
 Built a Streamlit UI
+
 Added search-by-object-name feature
+
 Built logging + exception handling system
+
 Supports multiple image formats
 
 ## 10. 📊 Results & Conclusion
 ### Results
 Average detection accuracy: High
+
 Response time: Fast (approx 20–40 ms on GPU)
+
 Works on 80 COCO classes
+
 UI is easy to use and deploy
+
 ### Conclusion
 This project successfully demonstrates a real-time object detection + image search system using YOLOv11. The application is optimized for both CPU and GPU and includes a deployable Streamlit interface suitable for real-world use.
