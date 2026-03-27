@@ -4,7 +4,7 @@ Computer-Vision-Powered Image Search & Object Detection using YOLOv11
 ## 2. 📝 Abstract / Introduction
 This project implements a YOLOv11-based real-time object detection and visual search system. Users can upload an image, and the system identifies objects using the COCO dataset and retrieves visually similar images using feature extraction + similarity matching.
 
-The project includes:
+### The project includes:
 
 YOLOv11 inference on CPU/GPU
 Streamlit web deployment
@@ -25,13 +25,13 @@ Supports bounding box detection
 Fast and efficient for real-time inference
 
 ## 4. 🛠️ Environment Setup
-Install Conda (Anaconda/Miniconda)
+### Install Conda (Anaconda/Miniconda)
 ```
 conda create -n yolosearch python=3.10 -y
 conda activate yolosearch
 ```
 
-Install dependencies:
+### Install dependencies:
 
 ```
 pip install ultralytics
@@ -43,7 +43,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
 
 ## 5. ⚙️ GPU Installation Steps OR CPU Installation Steps
-GPU Setup
+### GPU Setup
 (If you have NVIDIA GPU)
 
 Install NVIDIA CUDA Toolkit (11.8 recommended)
@@ -53,7 +53,7 @@ Install PyTorch with GPU support:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-CPU Setup
+### CPU Setup
 If no GPU available:
 ```
 pip install torch torchvision torchaudio
@@ -61,26 +61,26 @@ pip install ultralytics
 ```
 
 ## 6. 🖥️ How to Run in VS Code using Conda
-Step 1 — Activate Environment
+### Step 1 — Activate Environment
 ```
 conda activate yolosearch
 ```
-Step 2 — Run YOLO Inference Script
+### Step 2 — Run YOLO Inference Script
 ```
 python src/inference.py
 ```
-Step 3 — VS Code Tips
+### Step 3 — VS Code Tips
 Select Interpreter → your conda env
 Open integrated terminal
 Run Streamlit or Python scripts
 
 ## 7. 🌐 How to Deploy using Streamlit
-Run Streamlit app:
+### Run Streamlit app:
 ```
 streamlit run app.py
 ```
 
-Main Features:
+### Main Features:
 
 Upload image
 Detect objects using YOLOv11
@@ -104,7 +104,7 @@ Similarity search results
 
 
 ## 9. 🚀 Enhancements / Innovations Added
-Examples (Edit according to your project):
+### Examples (Edit according to your project):
 
 Added visual similarity search using embedding vectors
 Implemented GPU-accelerated YOLO inference
@@ -114,10 +114,10 @@ Built logging + exception handling system
 Supports multiple image formats
 
 ## 10. 📊 Results & Conclusion
-Results
+### Results
 Average detection accuracy: High
 Response time: Fast (approx 20–40 ms on GPU)
 Works on 80 COCO classes
 UI is easy to use and deploy
-Conclusion
+### Conclusion
 This project successfully demonstrates a real-time object detection + image search system using YOLOv11. The application is optimized for both CPU and GPU and includes a deployable Streamlit interface suitable for real-world use.
